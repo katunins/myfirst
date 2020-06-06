@@ -1,0 +1,173 @@
+@import 'mixins';
+
+
+@import 'global-fonts';
+
+
+$color-white: #ffffff;
+$color-black-dark:#222222;
+$color-gray:#cccccc;
+$color-gray2:#717171;
+$color-gray3:#959595;
+$color-gray4:#7d7979;
+$color-blue:#009fff;
+$color-black2:#1c1c1c;
+$vtk-black:#333333;
+$pinkish-grey:#c9c9c9;
+$color-border:#e8e8e8;
+$warm-grey:#9f9f9f;
+$warm-grey-two:#797373;
+$black:#211e1e;
+$white-three:#dddddd;
+$putty:#c4a687;
+$greyish-two:#a4a4a4;
+$braun:#231710;
+$deep-lavender:#695eaf;
+$brownish-grey:#666666;
+$warm-grey-three:#999999;
+$black-two:#212121;
+$greyish-brown:#484848;
+$slate-grey:#63686b;
+$black-three:#2f2f2f;
+$dark-sky-blue:#33b2f0;
+$greyish-brown-two:#555555;
+$white-four:#dcdcdc;
+$dark-sky-blue-two:#468dd9;
+$greyish-brown-three:#3f3f3f;
+$steel-grey:#777c7c;
+$pumpkin:#eb7501;
+$charcoal-grey:#46504f;
+$aqua-blue:#00dae4;
+$gunmetal:#5e6363;
+$steel-grey-two:#858f8e;
+$slate:#3a615e;
+$pale-grey:#eff2f6;
+$gunmetal-two:#49615e;
+$slime-green:#96d40b;
+$pale-grey-two:#edf0f6;
+$pinkish-red:#ed1c24;
+$black-four:#191919;
+$black-five:#343434;
+$coral:#fc4840;
+$white-five:#f0f0f0;
+$pinkish-grey-three:#c0c0c0;
+$white-six:#f4f4f4;
+$vtk-blue:#3f86c5;
+$vtk-dark-green:#0e5331;
+$vtk-green:#5f942c;
+$vtk-yellow:#ffff99;
+$vtk-cream:#f1f6ea;
+$greyish-three:#b2b2b2;
+$warm-grey-four:#868686;
+$dark-sky-blue-three:#3498db;
+
+$luzki-body:#17202A;
+$luzki-green:#00AD67;
+$luzki-gray:#F4F4F4;
+
+
+$idzor-body: #2C2C2C;
+$idzor-blue:#1A93B4;
+
+$helicon-blue:#00AAD0;
+$helicon-orange:#FC7424;
+
+
+
+
+
+$RobotoRegular:"Roboto Regular";
+$RobotoBold:"Roboto Bold";
+$RobotoMedium:"Roboto Medium";
+$PosterizerKGSketch:"PosterizerKGSketch";
+$SFUIDisplay:"SF UI Display";
+$SFUIDisplayBold:"SF UI Display Bold";
+
+
+
+
+
+
+@function rem($px) {
+  @return $px / 16px + 0rem;
+}
+
+
+
+@function size-w($size, $vw) {
+  @return (100 / ($vw / $size)) * 1vw;
+}
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+
+body {
+  font-family: $RobotoRegular, Arial, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  color:#333333;
+  overflow: auto;
+  overflow-x: hidden;
+  font-size: rem(20px);
+  text-rendering: auto;
+  line-height: normal;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  outline: none !important;
+}
+
+
+
+
+
+h1, h2, h3, h4,
+.h1, .h2, .h3, .h4{
+  margin: 0;
+  padding: 0;
+}
+
+
+ul, li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+p{
+  margin: 0;
+}
+
+
+button, a, input{
+  outline: none;
+  &:focus, &:visited{
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+a{
+  &:hover{
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+label{
+  margin: 0;
+}
+body,html{
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+  //height: 100%;
+}

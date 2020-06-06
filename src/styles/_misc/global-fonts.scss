@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('../fonts/roboto_regular.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/roboto_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+  url('../fonts/roboto_regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/roboto_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+  url('../fonts/roboto_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/roboto_regular.svg#roboto_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url('../fonts/roboto_bold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/roboto_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+  url('../fonts/roboto_bold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/roboto_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+  url('../fonts/roboto_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/roboto_bold.svg#roboto_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Roboto Medium';
+  src: url('../fonts/roboto_medium.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/roboto_medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+  url('../fonts/roboto_medium.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/roboto_medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+  url('../fonts/roboto_medium.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/roboto_medium.svg#roboto_medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+@font-face {
+  font-family: 'PosterizerKGSketch';
+  src: url('../fonts/PosterizerKGSketch.eot');
+  src: url('../fonts/PosterizerKGSketch.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PosterizerKGSketch.woff2') format('woff2'),
+  url('../fonts/PosterizerKGSketch.woff') format('woff'),
+  url('../fonts/PosterizerKGSketch.ttf') format('truetype'),
+  url('../fonts/PosterizerKGSketch.svg#PosterizerKGSketch') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PosterizerKGSketch';
+  src: url('../fonts/PosterizerKGSketch.eot');
+  src: url('../fonts/PosterizerKGSketch.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PosterizerKGSketch.woff2') format('woff2'),
+  url('../fonts/PosterizerKGSketch.woff') format('woff'),
+  url('../fonts/PosterizerKGSketch.ttf') format('truetype'),
+  url('../fonts/PosterizerKGSketch.svg#PosterizerKGSketch') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display Bold';
+  src: url('../fonts/SFUIDisplay-Bold.eot');
+  src: url('../fonts/SFUIDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SFUIDisplay-Bold.woff2') format('woff2'),
+  url('../fonts/SFUIDisplay-Bold.woff') format('woff'),
+  url('../fonts/SFUIDisplay-Bold.ttf') format('truetype'),
+  url('../fonts/SFUIDisplay-Bold.svg#SFUIDisplay-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
