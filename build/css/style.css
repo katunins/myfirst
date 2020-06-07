@@ -753,3 +753,16 @@ p {
     width: 52.8125vw; }
   .img-content-4 {
     width: 89.0625vw; } }
+
+    .pulse_animation {
+      animation: radial-pulse 1500ms infinite ease;
+    }
+    @keyframes radial-pulse {
+      0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.4);
+      }
+     
+      100% {
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+      }
+    }

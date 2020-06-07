@@ -12,8 +12,8 @@ jQuery (document).ready (function () {
       result = false;
       for (i = 0; i < allSections.length; i++) {
         if (allSections.item (i).classList.contains ('current')) {
-          if (direction < 0 && i > 0) result = allSections.item (i - 1);
-          if (direction > 0 && i < allSections.length - 1)
+          if (direction > 0 && i > 0) result = allSections.item (i - 1);
+          if (direction < 0 && i < allSections.length - 1)
             result = allSections.item (i + 1);
           break;
         }
@@ -42,7 +42,7 @@ jQuery (document).ready (function () {
           current.classList.remove ('current');
           next.classList.add ('current');
 
-          $ ('html, body').animate ({scrollTop: $ (next).offset ().top + 'px'});
+          $ ('html, body').animate ({scrollTop: $ (next).offset ().top + 'px'}, 500);
 
           //задержка до следующего опроса колеса
           scrollMove = false;
