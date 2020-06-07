@@ -7,6 +7,15 @@ mixin download-block
         img(src='../img/apple.svg' alt='', title='').download-img
       img(src='../img/apple-qr.svg' alt='', title='').qr-img
     .download-block__item
-      a(href="javascript:void(0);").download-link
+      a(href="https://play.google.com/store/apps/details?id=studio.yakovlev.shop_hm").download-link
         img(src='../img/android.svg' alt='', title='').download-img
       img(src='../img/android-qr.svg' alt='', title='').qr-img
+
+      
+mixin footer-fixed
+  .footer-fixed.anim-block
+    a(href="https://yakovlev.studio" target='_blank').develop-link Сделано в 
+      span Yakovlev.Studio
+  a(href="offer.html").footer-download__block.anim-block
+    img(src='../img/doc-icon.svg' alt='', title='').doc-icon
+    .footer-download--text Публичная <br />оферта

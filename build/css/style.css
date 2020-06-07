@@ -10,13 +10,6 @@
   /* Chrome < 4, Legacy iOS */ }
 
 @font-face {
-  font-family: 'Roboto Bold';
-  src: url("../fonts/roboto_bold.eot");
-  /* IE 9 Compatibility Mode */
-  src: url("../fonts/roboto_bold.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto_bold.woff2") format("woff2"), url("../fonts/roboto_bold.woff") format("woff"), url("../fonts/roboto_bold.ttf") format("truetype"), url("../fonts/roboto_bold.svg#roboto_bold") format("svg");
-  /* Chrome < 4, Legacy iOS */ }
-
-@font-face {
   font-family: 'Roboto Medium';
   src: url("../fonts/roboto_medium.eot");
   /* IE 9 Compatibility Mode */

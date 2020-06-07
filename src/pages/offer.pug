@@ -1,12 +1,8 @@
 extends ../templates/template-offer
 block content
   main
-    .footer-fixed
-      a(href="javascript:void(0);").develop-link Сделано в 
-        span Yakovlev.Studio
-    a(href="javascript:void(0);").footer-download__block
-      img(src='../img/doc-icon.svg' alt='', title='').doc-icon
-      .footer-download--text Публичная <br />оферта
+    +footer-fixed
+    
     section.section-offer
       .container-fluid
         .row
