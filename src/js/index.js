@@ -45,24 +45,25 @@ jQuery(document).ready(function() {
   
   
   // dis footer
-
-  var $element = $('.footer-wrap');
-  let counter = 0;
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop() + $(window).height();
-    //Если скролл до конца елемента
-    //var offset = $element.offset().top + $element.height();
-    //Если скролл до начала елемента
-    var offset = $element.offset().top;
-
-    if (scroll > offset) {
-      $('.anim-block').fadeOut(300);
-    }else {
-      $('.anim-block').fadeIn(300);
-
-    }
-  });
   
+  if($('.footer-wrap').length > 0) {
+    
+    var $element = $('.footer-wrap');
+    let counter = 0;
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop() + $(window).height();
+      //Если скролл до конца елемента
+      //var offset = $element.offset().top + $element.height();
+      //Если скролл до начала елемента
+      var offset = $element.offset().top;
 
+      if (scroll > offset) {
+        $('.anim-block').fadeOut(300);
+      } else {
+        $('.anim-block').fadeIn(300);
+
+      }
+    });
+  }
 });
 

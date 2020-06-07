@@ -479,7 +479,9 @@ p {
 
 @media (min-width: 992px) and (max-width: 1400px) {
   html {
-    font-size: 15px; } }
+    font-size: 15px; }
+  .footer-text {
+    font-size: 17px; } }
 
 @media screen and (max-width: 1300px) {
   .download-block {

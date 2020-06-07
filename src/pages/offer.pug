@@ -1,12 +1,14 @@
 extends ../templates/template-offer
 block content
   main
-    +footer-fixed
+    .footer-fixed.anim-block
+      a(href="https://yakovlev.studio" target='_blank').develop-link Сделано в 
+        span Yakovlev.Studio
     
     section.section-offer
       .container-fluid
         .row
-          .col-lg-6.offset-lg-3
+          .col-lg-10.offset-lg-1.col-xl-6.offset-xl-3
             .offer-title Публичная оферта
               a(href="index.html").offer-title--img
             .accord-wrap
